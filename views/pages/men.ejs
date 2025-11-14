@@ -1,0 +1,109 @@
+<body>
+	<main>
+		<%- include('../partials/header') %>
+		<section class="hero d-flex justify-content-center align-items-end">
+			<div class="category-sidebar">
+				<ul>
+					<li>
+						<a href="/men">Men</a>
+					</li>
+					<li>
+						<a href="/men">Women</a>
+					</li>
+					<li>
+						<a href="/men">Kids</a>
+					</li>
+					<li>
+						<a href="/men">Beauty</a>
+					</li>
+				</ul>
+			</div>
+			<div
+				id="carouselExampleIndicators"
+				class="carousel slide"
+				data-bs-ride="carousel"
+				data-bs-keyboard="true"
+			>
+				<div>
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="3"
+							aria-label="Slide 4"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								src="/images/men/mbanner3.webp"
+								alt="homeBannerimg"
+								class="homeBanner d-block w-100"
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="/images/men/mbanner1.png"
+								alt="homeBannerimg"
+								class="homeBanner d-block w-100"
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="/images/men/mbanner4.jpg"
+								alt="homeBannerimg"
+								class="homeBanner d-block w-100"
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="/images/men/mbanner2.jpg"
+								alt="homeBannerimg"
+								class="homeBanner d-block w-100"
+							/>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev prev"
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next next"
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<%- include('../partials/footer') %>
+</body>
